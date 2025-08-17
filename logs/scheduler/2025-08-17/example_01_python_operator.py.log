@@ -1,0 +1,834 @@
+[2025-08-17T21:18:56.366+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:18:56.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:18:56.378+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:18:56.377+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:18:58.042+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:18:58.021+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:18:58.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:18:58.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.726 seconds
+[2025-08-17T21:19:28.721+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:28.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:19:28.725+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:19:28.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:29.102+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:19:29.090+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:19:29.106+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:29.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.410 seconds
+[2025-08-17T21:19:59.605+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:59.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:19:59.610+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:19:59.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:59.972+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:19:59.959+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:19:59.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:19:59.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.398 seconds
+[2025-08-17T21:20:30.381+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:30.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:20:30.385+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:20:30.385+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:30.818+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:20:30.807+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:20:30.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:30.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.467 seconds
+[2025-08-17T21:20:32.437+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:32.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:20:32.441+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:20:32.441+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:32.842+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:20:32.830+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:20:32.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:20:32.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.448 seconds
+[2025-08-17T21:21:03.305+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:03.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:21:03.309+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:21:03.308+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:03.667+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:21:03.662+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:21:03.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:03.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.396 seconds
+[2025-08-17T21:21:34.150+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:34.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:21:34.153+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:21:34.153+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:34.512+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:21:34.498+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:21:34.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:21:34.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.390 seconds
+[2025-08-17T21:22:04.947+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:04.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:22:04.952+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:22:04.951+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:05.338+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:22:05.329+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:22:05.340+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:05.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.419 seconds
+[2025-08-17T21:22:35.806+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:35.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:22:35.814+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:22:35.814+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:36.208+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:22:36.201+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:22:36.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:22:36.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.425 seconds
+[2025-08-17T21:23:06.662+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:06.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:23:06.666+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:23:06.666+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:07.044+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:23:07.039+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:23:07.046+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:07.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.406 seconds
+[2025-08-17T21:23:37.448+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:37.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:23:37.452+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:23:37.452+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:37.834+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:23:37.826+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:23:37.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:23:37.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.425 seconds
+[2025-08-17T21:24:08.422+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:08.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:24:08.426+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:24:08.425+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:08.777+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:24:08.771+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:24:08.779+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:08.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.388 seconds
+[2025-08-17T21:24:39.188+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:39.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:24:39.192+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:24:39.191+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:39.564+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:24:39.553+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:24:39.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:24:39.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.419 seconds
+[2025-08-17T21:25:09.998+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:09.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:25:10.002+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:25:10.002+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:10.338+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:25:10.333+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:25:10.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:10.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.375 seconds
+[2025-08-17T21:25:40.870+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:40.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:25:40.874+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:25:40.873+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:41.292+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:25:41.285+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:25:41.294+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:25:41.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.446 seconds
+[2025-08-17T21:29:32.321+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:29:32.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:29:32.324+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:29:32.324+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:29:33.249+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:29:33.241+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:29:33.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:29:33.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.949 seconds
+[2025-08-17T21:30:03.628+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:03.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:30:03.632+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:30:03.632+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:03.981+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:30:03.974+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:30:03.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:04.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.378 seconds
+[2025-08-17T21:30:34.421+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:34.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:30:34.425+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:30:34.425+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:34.958+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:30:34.946+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:30:34.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:30:34.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.570 seconds
+[2025-08-17T21:31:05.403+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:05.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:31:05.407+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:31:05.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:05.758+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:31:05.748+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:31:05.761+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:05.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.379 seconds
+[2025-08-17T21:31:36.164+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:36.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:31:36.167+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:31:36.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:36.512+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:31:36.502+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:31:36.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:31:36.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.387 seconds
+[2025-08-17T21:32:05.284+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:05.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:32:05.287+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:32:05.287+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:06.311+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:32:06.302+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:32:06.313+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:06.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.051 seconds
+[2025-08-17T21:32:36.644+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:36.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:32:36.649+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:32:36.648+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:37.019+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:32:37.012+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:32:37.020+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:32:37.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.396 seconds
+[2025-08-17T21:33:07.402+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:07.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:33:07.406+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:33:07.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:07.783+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:33:07.777+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:33:07.785+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:07.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.407 seconds
+[2025-08-17T21:33:38.246+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:38.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:33:38.253+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:33:38.253+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:38.621+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:33:38.606+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:33:38.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:33:38.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.408 seconds
+[2025-08-17T21:34:09.070+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:09.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:34:09.073+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:34:09.073+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:09.484+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:34:09.471+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:34:09.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:09.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.439 seconds
+[2025-08-17T21:34:39.883+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:39.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:34:39.888+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:34:39.888+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:40.273+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:34:40.264+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:34:40.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:34:40.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.438 seconds
+[2025-08-17T21:35:10.729+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:10.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:35:10.733+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:35:10.733+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:11.081+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:35:11.071+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:35:11.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:11.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.383 seconds
+[2025-08-17T21:35:41.464+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:41.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:35:41.469+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:35:41.469+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:41.857+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:35:41.853+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 7, in <module>
+    from geopy.distance import geodesic
+ModuleNotFoundError: No module named 'geopy'
+[2025-08-17T21:35:41.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:35:41.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.417 seconds
+[2025-08-17T21:36:14.820+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:14.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:36:14.824+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:36:14.824+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:15.725+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:36:15.719+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 68, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'retries'
+[2025-08-17T21:36:15.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:15.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.928 seconds
+[2025-08-17T21:36:46.089+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:46.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:36:46.093+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:36:46.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:46.484+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:36:46.475+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 68, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'retries'
+[2025-08-17T21:36:46.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:36:46.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.422 seconds
+[2025-08-17T21:37:16.954+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:16.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:37:16.958+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:37:16.958+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:17.355+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:37:17.346+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 68, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'retries'
+[2025-08-17T21:37:17.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:17.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.432 seconds
+[2025-08-17T21:37:47.793+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:47.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:37:47.797+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:37:47.797+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:48.263+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:37:48.254+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/example_01_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_01_python_operator.py", line 68, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'retries'
+[2025-08-17T21:37:48.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:37:48.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.498 seconds
+[2025-08-17T21:38:03.475+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:03.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:38:03.480+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:03.479+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:03.874+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:04.028+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.027+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:citybikes_monitoring
+[2025-08-17T21:38:04.038+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.038+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:citybikes_monitoring
+[2025-08-17T21:38:04.046+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.045+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:citybikes_monitoring
+[2025-08-17T21:38:04.048+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.047+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:38:04.060+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.059+0000] {dag.py:3234} INFO - Creating ORM DAG for citybikes_monitoring
+[2025-08-17T21:38:04.075+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:04.075+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 00:00:00+00:00, run_after=2025-08-17 00:01:00+00:00
+[2025-08-17T21:38:04.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.641 seconds
+[2025-08-17T21:38:34.615+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:34.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:38:34.631+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:34.629+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:35.482+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:38:35.530+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:35.529+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:38:35.567+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:38:35.566+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 00:29:00+00:00, run_after=2025-08-17 00:30:00+00:00
+[2025-08-17T21:38:35.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.011 seconds
+[2025-08-17T21:39:05.978+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:05.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:39:05.983+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:05.983+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:06.336+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:06.370+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:06.370+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:39:06.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.427 seconds
+[2025-08-17T21:39:36.775+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:36.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:39:36.781+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:36.781+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:37.109+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:37.147+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:37.145+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:39:37.169+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:37.169+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 00:48:00+00:00, run_after=2025-08-17 00:49:00+00:00
+[2025-08-17T21:39:37.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.419 seconds
+[2025-08-17T21:39:41.326+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:41.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:39:41.329+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:41.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:41.757+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:41.873+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:41.872+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:39:41.891+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:41.891+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:38:00+00:00, run_after=2025-08-17 21:39:00+00:00
+[2025-08-17T21:39:41.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.597 seconds
+[2025-08-17T21:39:59.109+0000] {processor.py:186} INFO - Started process (PID=418) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:59.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:39:59.116+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:59.115+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:59.509+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:39:59.522+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:59.522+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:39:59.540+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:39:59.540+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:38:00+00:00, run_after=2025-08-17 21:39:00+00:00
+[2025-08-17T21:39:59.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.460 seconds
+[2025-08-17T21:40:29.986+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:40:29.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:40:29.990+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:40:29.989+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:40:30.332+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:40:30.352+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:40:30.352+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:40:30.370+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:40:30.370+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:40:00+00:00, run_after=2025-08-17 21:41:00+00:00
+[2025-08-17T21:40:30.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.408 seconds
+[2025-08-17T21:41:00.826+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:00.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:41:00.831+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:00.831+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:01.200+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:01.217+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:01.217+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:41:01.232+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:01.232+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:41:00+00:00, run_after=2025-08-17 21:42:00+00:00
+[2025-08-17T21:41:01.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.429 seconds
+[2025-08-17T21:41:31.698+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:31.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:41:31.705+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:31.704+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:32.160+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:32.182+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:32.182+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:41:32.205+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:32.205+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:41:00+00:00, run_after=2025-08-17 21:42:00+00:00
+[2025-08-17T21:41:32.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.532 seconds
+[2025-08-17T21:41:44.434+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:44.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:41:44.438+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:44.438+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:44.864+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:44.886+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:44.886+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:41:44.904+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:44.904+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:41:00+00:00, run_after=2025-08-17 21:42:00+00:00
+[2025-08-17T21:41:44.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.504 seconds
+[2025-08-17T21:41:48.544+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:48.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:41:48.548+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:48.547+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:48.945+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:41:48.964+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:48.964+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:41:48.980+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:41:48.980+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:41:00+00:00, run_after=2025-08-17 21:42:00+00:00
+[2025-08-17T21:41:48.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.457 seconds
+[2025-08-17T21:42:19.376+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:19.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:42:19.379+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:19.379+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:19.706+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:19.726+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:19.725+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:42:19.740+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:19.740+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:42:00+00:00, run_after=2025-08-17 21:43:00+00:00
+[2025-08-17T21:42:19.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.400 seconds
+[2025-08-17T21:42:50.216+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:50.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:42:50.220+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:50.220+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:50.594+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:42:50.613+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:50.613+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:42:50.630+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:42:50.630+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:42:00+00:00, run_after=2025-08-17 21:43:00+00:00
+[2025-08-17T21:42:50.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.438 seconds
+[2025-08-17T21:43:21.010+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:21.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:43:21.013+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:21.013+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:21.343+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:21.365+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:21.364+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:43:21.382+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:21.382+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:43:00+00:00, run_after=2025-08-17 21:44:00+00:00
+[2025-08-17T21:43:21.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.416 seconds
+[2025-08-17T21:43:46.882+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:46.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:43:46.886+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:46.886+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:47.336+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:43:47.357+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:47.357+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:43:47.375+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:43:47.375+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:43:00+00:00, run_after=2025-08-17 21:44:00+00:00
+[2025-08-17T21:43:47.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.532 seconds
+[2025-08-17T21:44:12.699+0000] {processor.py:186} INFO - Started process (PID=502) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:12.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:44:12.705+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:12.705+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:13.095+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:13.113+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:13.113+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:44:13.130+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:13.130+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:44:00+00:00, run_after=2025-08-17 21:45:00+00:00
+[2025-08-17T21:44:13.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.466 seconds
+[2025-08-17T21:44:43.573+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:43.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:44:43.578+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:43.578+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:43.941+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:44:43.963+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:43.963+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:44:43.978+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:44:43.978+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:44:00+00:00, run_after=2025-08-17 21:45:00+00:00
+[2025-08-17T21:44:43.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.430 seconds
+[2025-08-17T21:45:14.375+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:14.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:45:14.379+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:14.379+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:14.749+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:14.772+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:14.771+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:45:14.787+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:14.786+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:44:00+00:00, run_after=2025-08-17 21:45:00+00:00
+[2025-08-17T21:45:14.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.434 seconds
+[2025-08-17T21:45:45.153+0000] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:45.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:45:45.157+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:45.157+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:45.542+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:45:45.563+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:45.563+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:45:45.580+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:45:45.580+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:44:00+00:00, run_after=2025-08-17 21:45:00+00:00
+[2025-08-17T21:45:45.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.466 seconds
+[2025-08-17T21:46:16.071+0000] {processor.py:186} INFO - Started process (PID=526) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:16.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:46:16.074+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:16.074+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:16.416+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:16.434+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:16.434+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:46:16.451+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:16.450+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:45:00+00:00, run_after=2025-08-17 21:46:00+00:00
+[2025-08-17T21:46:16.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.401 seconds
+[2025-08-17T21:46:46.792+0000] {processor.py:186} INFO - Started process (PID=532) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:46.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:46:46.795+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:46.795+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:47.185+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:46:47.206+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:47.206+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:46:47.223+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:46:47.223+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:45:00+00:00, run_after=2025-08-17 21:46:00+00:00
+[2025-08-17T21:46:47.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.454 seconds
+[2025-08-17T21:47:07.916+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:07.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:47:07.919+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:07.919+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:08.897+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:09.026+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.025+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:citybikes_monitoring
+[2025-08-17T21:47:09.034+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.034+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:citybikes_monitoring
+[2025-08-17T21:47:09.042+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.041+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:citybikes_monitoring
+[2025-08-17T21:47:09.043+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.042+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:47:09.051+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.051+0000] {dag.py:3234} INFO - Creating ORM DAG for citybikes_monitoring
+[2025-08-17T21:47:09.060+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:09.060+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:46:00+00:00, run_after=2025-08-17 21:47:00+00:00
+[2025-08-17T21:47:09.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.171 seconds
+[2025-08-17T21:47:39.268+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:39.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:47:39.272+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:39.272+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:39.651+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:47:39.670+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:39.670+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:47:39.687+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:47:39.686+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:47:00+00:00, run_after=2025-08-17 21:48:00+00:00
+[2025-08-17T21:47:39.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.444 seconds
+[2025-08-17T21:48:09.775+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:09.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:48:09.779+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:09.779+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:10.158+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:10.184+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:10.184+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:48:10.203+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:10.202+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:48:00+00:00, run_after=2025-08-17 21:49:00+00:00
+[2025-08-17T21:48:10.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.452 seconds
+[2025-08-17T21:48:40.489+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:40.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:48:40.492+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:40.492+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:40.923+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:48:40.948+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:40.947+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:48:40.966+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:48:40.966+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:48:00+00:00, run_after=2025-08-17 21:49:00+00:00
+[2025-08-17T21:48:40.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.499 seconds
+[2025-08-17T21:49:11.358+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:49:11.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:49:11.362+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:49:11.362+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:49:11.681+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:49:11.701+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:49:11.701+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:49:11.718+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:49:11.718+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:48:00+00:00, run_after=2025-08-17 21:49:00+00:00
+[2025-08-17T21:49:11.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.387 seconds
+[2025-08-17T21:51:03.563+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:03.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:51:03.566+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:03.566+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:04.446+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:04.584+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.584+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:citybikes_monitoring
+[2025-08-17T21:51:04.592+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.592+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:citybikes_monitoring
+[2025-08-17T21:51:04.598+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.598+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:citybikes_monitoring
+[2025-08-17T21:51:04.599+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.599+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:51:04.608+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.608+0000] {dag.py:3234} INFO - Creating ORM DAG for citybikes_monitoring
+[2025-08-17T21:51:04.616+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:04.616+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:50:00+00:00, run_after=2025-08-17 21:51:00+00:00
+[2025-08-17T21:51:04.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.079 seconds
+[2025-08-17T21:51:34.879+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:34.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:51:34.882+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:34.882+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:35.280+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:51:35.306+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:35.305+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:51:35.324+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:51:35.324+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:51:00+00:00, run_after=2025-08-17 21:52:00+00:00
+[2025-08-17T21:51:35.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.469 seconds
+[2025-08-17T21:52:05.441+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:05.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:52:05.447+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:05.447+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:05.799+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:05.818+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:05.818+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:52:05.832+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:05.832+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:51:00+00:00, run_after=2025-08-17 21:52:00+00:00
+[2025-08-17T21:52:05.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.427 seconds
+[2025-08-17T21:52:36.076+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:36.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:52:36.080+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:36.079+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:36.417+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:52:36.438+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:36.438+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:52:36.452+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:52:36.452+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:51:00+00:00, run_after=2025-08-17 21:52:00+00:00
+[2025-08-17T21:52:36.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.400 seconds
+[2025-08-17T21:53:06.656+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:06.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:53:06.660+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:06.659+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:07.018+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:07.038+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:07.038+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:53:07.055+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:07.055+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:52:00+00:00, run_after=2025-08-17 21:53:00+00:00
+[2025-08-17T21:53:07.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.422 seconds
+[2025-08-17T21:53:37.203+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:37.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:53:37.206+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:37.205+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:37.513+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:53:37.530+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:37.530+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:53:37.544+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:53:37.544+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:52:00+00:00, run_after=2025-08-17 21:53:00+00:00
+[2025-08-17T21:53:37.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.376 seconds
+[2025-08-17T21:54:07.915+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:07.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:54:07.919+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:07.919+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:08.247+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:08.264+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:08.264+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:54:08.279+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:08.279+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:53:00+00:00, run_after=2025-08-17 21:54:00+00:00
+[2025-08-17T21:54:08.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.385 seconds
+[2025-08-17T21:54:38.416+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:38.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:54:38.419+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:38.419+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:38.742+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:54:38.761+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:38.761+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:54:38.777+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:54:38.777+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:53:00+00:00, run_after=2025-08-17 21:54:00+00:00
+[2025-08-17T21:54:38.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.385 seconds
+[2025-08-17T21:55:09.053+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:55:09.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:55:09.056+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:55:09.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:55:09.448+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:55:09.470+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:55:09.469+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:55:09.488+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:55:09.488+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:54:00+00:00, run_after=2025-08-17 21:55:00+00:00
+[2025-08-17T21:55:09.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.457 seconds
+[2025-08-17T21:56:47.861+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:56:47.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:56:47.864+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:47.864+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:56:48.681+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:56:48.819+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.818+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:citybikes_monitoring
+[2025-08-17T21:56:48.827+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.827+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:citybikes_monitoring
+[2025-08-17T21:56:48.834+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.833+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:citybikes_monitoring
+[2025-08-17T21:56:48.835+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.834+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:56:48.845+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.845+0000] {dag.py:3234} INFO - Creating ORM DAG for citybikes_monitoring
+[2025-08-17T21:56:48.854+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:56:48.854+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 21:56:00+00:00
+[2025-08-17T21:56:48.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 1.022 seconds
+[2025-08-17T21:57:19.254+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:19.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:57:19.261+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:19.260+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:19.723+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:19.745+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:19.745+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:57:19.761+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:19.761+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:56:00+00:00, run_after=2025-08-17 21:57:00+00:00
+[2025-08-17T21:57:19.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.533 seconds
+[2025-08-17T21:57:50.227+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:50.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:57:50.232+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:50.232+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:50.620+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:57:50.639+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:50.639+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:57:50.654+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:57:50.654+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:57:00+00:00, run_after=2025-08-17 21:58:00+00:00
+[2025-08-17T21:57:50.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.451 seconds
+[2025-08-17T21:58:20.939+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:20.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:58:20.942+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:20.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:21.334+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:21.359+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:21.359+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:58:21.376+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:21.375+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:58:00+00:00, run_after=2025-08-17 21:59:00+00:00
+[2025-08-17T21:58:21.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.458 seconds
+[2025-08-17T21:58:42.723+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:42.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:58:42.727+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:42.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:43.074+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:43.134+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:43.134+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:58:43.153+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:43.153+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T21:58:43.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.455 seconds
+[2025-08-17T21:58:49.283+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:49.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:58:49.286+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:49.286+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:49.660+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:58:49.672+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:49.672+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:58:49.689+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:58:49.689+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T21:58:49.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.428 seconds
+[2025-08-17T21:59:20.085+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:20.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:59:20.089+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:20.089+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:20.495+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:20.516+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:20.516+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:59:20.536+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:20.536+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T21:59:20.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.475 seconds
+[2025-08-17T21:59:50.990+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:50.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T21:59:50.993+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:50.993+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:51.441+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T21:59:51.461+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:51.461+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T21:59:51.479+0000] {logging_mixin.py:190} INFO - [2025-08-17T21:59:51.478+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T21:59:51.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.512 seconds
+[2025-08-17T22:00:21.711+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:21.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:00:21.714+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:21.714+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:22.037+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:22.056+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:22.055+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:00:22.071+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:22.071+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:00:22.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.386 seconds
+[2025-08-17T22:00:52.336+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:52.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:00:52.340+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:52.340+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:52.720+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:00:52.743+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:52.742+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:00:52.765+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:00:52.765+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:00:52.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.455 seconds
+[2025-08-17T22:01:23.175+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:23.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:01:23.179+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:23.179+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:23.540+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:23.566+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:23.566+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:01:23.584+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:23.583+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:01:23.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.451 seconds
+[2025-08-17T22:01:54.129+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:54.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:01:54.133+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:54.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:54.513+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:01:54.532+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:54.532+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:01:54.549+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:01:54.549+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:01:54.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.444 seconds
+[2025-08-17T22:02:24.956+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:24.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:02:24.961+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:24.960+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:25.348+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:25.369+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:25.369+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:02:25.388+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:25.388+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:02:25.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.458 seconds
+[2025-08-17T22:02:55.835+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:55.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:02:55.839+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:55.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:56.217+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:02:56.242+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:56.241+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:02:56.259+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:02:56.259+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:02:56.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.463 seconds
+[2025-08-17T22:03:26.712+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:26.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:03:26.716+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:26.716+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:27.079+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:27.100+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:27.099+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:03:27.115+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:27.115+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:03:27.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.444 seconds
+[2025-08-17T22:03:57.496+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:57.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:03:57.500+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:57.500+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:57.834+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:03:57.854+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:57.854+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:03:57.869+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:03:57.869+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:03:57.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.409 seconds
+[2025-08-17T22:04:28.333+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:28.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:04:28.337+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:28.337+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:28.714+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:28.736+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:28.735+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:04:28.759+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:28.759+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:04:28.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.459 seconds
+[2025-08-17T22:04:59.155+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:59.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/example_01_python_operator.py for tasks to queue
+[2025-08-17T22:04:59.161+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:59.161+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:59.526+0000] {processor.py:925} INFO - DAG(s) 'citybikes_monitoring' retrieved from /opt/airflow/dags/example_01_python_operator.py
+[2025-08-17T22:04:59.548+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:59.547+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-08-17T22:04:59.577+0000] {logging_mixin.py:190} INFO - [2025-08-17T22:04:59.577+0000] {dag.py:4138} INFO - Setting next_dagrun for citybikes_monitoring to 2025-08-17 21:55:00+00:00, run_after=2025-08-17 22:00:00+00:00
+[2025-08-17T22:04:59.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/example_01_python_operator.py took 0.450 seconds
