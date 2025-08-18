@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:15
-    container_name: postgres
+    container_name: postgres-treinamento-airflow
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -14,7 +14,7 @@ services:
 
   airflow-webserver:
     build: .
-    container_name: airflow-webserver
+    container_name: airflow-webserver-treinamento-airflow
     depends_on:
       - postgres
     environment:
@@ -37,7 +37,7 @@ services:
 
   airflow-scheduler:
     build: .
-    container_name: airflow-scheduler
+    container_name: airflow-scheduler-treinamento-airflow
     depends_on:
       - airflow-webserver
       - postgres
