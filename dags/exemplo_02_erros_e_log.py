@@ -43,7 +43,7 @@ def get_and_insert_data():
     df_stations['distance_to_supersim'] = get_distances(data)
 
     conn = psycopg2.connect(
-        dbname="citybikes",
+        dbname="citybike",
         user="postgres",
         password="postgres",
         host="postgres",
@@ -66,7 +66,7 @@ def get_and_insert_data():
     conn.close()
 
 with DAG(
-    dag_id = "exemplo_1_python_operator",
+    dag_id = "exemplo_2_erros",
     start_date=datetime(2025, 8, 17),
     schedule_interval="*/5 * * * *",
     tags = ['API','Postgres'],

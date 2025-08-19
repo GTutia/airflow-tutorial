@@ -1,12 +1,11 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.models import Param
 from datetime import datetime, timedelta
 import requests
 import psycopg2
 import pandas
 from geopy.distance import geodesic
-
-NETWORK_URL = "https://api.citybik.es/v2/networks/bikesampa"
 
 def clean_stations(data):
     stations = []
@@ -35,8 +34,14 @@ def get_distances(data):
         distances.append(distance)
     return distances
 
-def get_and_insert_data():
-    response = requests.get(NETWORK_URL)
+def get_and_insert_data(**context):
+    networks = {
+        "São Paulo":"bikesampa",
+        "Rio de Janeiro":"bikerio",
+    }
+
+    network_url = f"https://api.citybik.es/v2/networks/{networks[context['params']['local']]}"
+    response = requests.get(network_url)
     data = response.json()
 
     df_stations = clean_stations(data)
@@ -66,11 +71,14 @@ def get_and_insert_data():
     conn.close()
 
 with DAG(
-    dag_id = "exemplo_1_python_operator",
-    start_date=datetime(2025, 8, 17),
-    schedule_interval="*/5 * * * *",
+    dag_id = "exemplo_3_parametros",
+    start_date=datetime(2025, 8, 25),
+    schedule_interval="0 */4 * * *",
     tags = ['API','Postgres'],
-    catchup = False
+    catchup = False,
+    params={
+        "local": Param("São Paulo", type="string", enum=["São Paulo", "Rio de Janeiro"], title="Local"),
+    }
 ) as dag:
 
     get_and_insert_task = PythonOperator(

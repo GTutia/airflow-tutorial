@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 from datetime import datetime, timedelta
 import requests
 import psycopg2
@@ -66,7 +67,7 @@ def get_and_insert_data():
     conn.close()
 
 with DAG(
-    dag_id = "exemplo_1_python_operator",
+    dag_id = "exemplo_5_dependencias",
     start_date=datetime(2025, 8, 17),
     schedule_interval="*/5 * * * *",
     tags = ['API','Postgres'],
@@ -77,3 +78,18 @@ with DAG(
         task_id="get_data_and_insert_task",
         python_callable=get_and_insert_data,
     )
+
+    run_sql_query = SQLExecuteQueryOperator(
+        task_id="run_sql_query",
+        conn_id="postgres_default",
+        sql="""
+            DROP TABLE IF EXISTS public.station_fact;
+            CREATE TABLE public.station_fact AS (
+                SELECT *
+                FROM public.citybikes_log cl 
+                WHERE updated_at = (SELECT MAX(updated_at) FROM public.citybikes_log)
+            );
+        """
+    )
+
+    get_and_insert_task >> run_sql_query
